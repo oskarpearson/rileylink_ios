@@ -215,7 +215,8 @@
   
   NSMutableArray *scanResults = [NSMutableArray array];
   NSMutableArray *rssi = [NSMutableArray array];
-  NSArray *frequencies = @[@916.55, @916.60, @916.65, @916.70, @916.75, @916.80];
+  NSArray *frequencies = @[@916.55, @916.60, @916.65, @916.70, @916.75, @916.80,
+                           @867.55, @867.60, @867.65, @867.70, @867.75, @867.80];
   
   [self wakeIfNeeded];
   NSInteger totalSuccesses = 0;
